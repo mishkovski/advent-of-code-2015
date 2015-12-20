@@ -4,7 +4,7 @@ var printResult = require('./print-result.js');
 var day4 = require('../lib/day-4.js');
 var findNumber = day4.findNumber;
 
-describe.only('day-4 - findNumber', function() {
+describe('day-4 - findNumber', function() {
   this.timeout(150000);
 
   var leadingZerosString = '00000';
