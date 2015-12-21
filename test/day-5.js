@@ -6,7 +6,7 @@ var day5 = require('../lib/day-5.js');
 var getNiceCount = day5.getNiceCount;
 var getNiceCountModified = day5.getNiceCountModified;
 
-describe.only('day-5 - getNiceCount', function() {
+describe('day-5 - getNiceCount', function() {
 
   it('returns 1 for ugknbfddgicrmopn', function(done) {
     expect(getNiceCount('ugknbfddgicrmopn')).to.equal(1);
