@@ -44,7 +44,7 @@ describe.only('day-5 - getNiceCount', function() {
   });
 });
 
-describe.only('day-5 - getNiceCountModified', function() {
+describe('day-5 - getNiceCountModified', function() {
   it('returns 1 for qjhvhtzxzqqjkmpb', function(done) {
     expect(getNiceCountModified('qjhvhtzxzqqjkmpb')).to.equal(1);
     done();
